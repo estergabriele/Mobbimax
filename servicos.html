@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Links CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+
+    <link rel="shortcut icon" href="imagens/Logo.png" type="image/x-icon">
+
+    <title>Serviços - MOBBIMAX</title>
+</head>
+
+<body>
+    <header class="headerPrincipal">
+        <nav class="menuPrincipal">
+
+            <div class="logo">
+                <a href="index.html"><img src="imagens/logo-mobbimax.png" alt="Logo Mobbimax"></a>
+            </div>
+
+            <div class="listaMenu">
+                <ul>
+                    <li class="itemMenu"><a class="linkMenu" href="index.html">Home</a></li>
+
+                    <li class="itemMenu"><a class="linkMenu" href="quemsomos.html">Quem Somos</a></li>
+
+                    <li class="itemMenu"><a class="linkMenu" href="servicos.html">Serviços</a></li>
+
+                    <li class="itemMenu"><a class="linkMenu" href="acessorios.html">Acessórios</a></li>
+
+                    <li class="itemMenu"><a class="linkMenu" href="nossaslojas.html">Nossas Lojas</a></li>
+
+                    <li class="itemMenu"><a class="linkMenu" href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="mostrarMenu()"><img class="icon" src="imagens/menu.svg"></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="itemMenu"><a class="linkMenu" href="index.html">Home</a></li>
+
+                <li class="itemMenu"><a class="linkMenu" href="quemsomos.html">Quem Somos</a></li>
+
+                <li class="itemMenu"><a class="linkMenu" href="servicos.html">Serviços</a></li>
+
+                <li class="itemMenu"><a class="linkMenu" href="acessorios.html">Acessórios</a></li>
+
+                <li class="itemMenu"><a class="linkMenu" href="nossaslojas.html">Nossas Lojas</a></li>
+
+                <li class="itemMenu"><a class="linkMenu" href="contato.html">Contato</a></li>
+            </ul>
+            </nav>
+    </header>
+
+
+    <div class="parallax">
+        <main class="bannerServicos">
+            <section class="module parallax parallax-3">
+                <h1>Serviços</h1>
+            </section>
+
+            <section class="module content">
+                <div class="containerServicos">
+                    <p>Dentre os diversos serviços que a Mobbimax oferece, destacamos abaixo uma lista dos mais
+                        solicitados em nossa assistência técnica:</p>
+                </div>
+            </section>
+
+            <main>
+                <section class="servicosPrincipal">
+                    <div class="responsivoFundoServico">
+                        <div class="responsivoServico">
+                            <img class="imagemServico" src="imagens/servicos3.jpg" alt="Conserto de placa-mãe">
+                            <span class="tituloSevico">Conserto de placa-mãe</span>
+                        </div>
+
+                        <div class="responsivoServico">
+                            <img class="imagemServico" src="imagens/servicos6.jpg" alt="Conserto de tela quebrada">
+                            <span class="tituloSevico">Conserto de tela quebrada</span>
+                        </div>
+
+                        <div class="responsivoServico">
+                            <img class="imagemServico" src="imagens/troca-bateria.jpg" alt="Troca de bateria">
+                            <span class="tituloSevico">Troca de bateria</span>
+                        </div>
+
+                        <div class="responsivoServico">
+                            <img class="imagemServico" src="imagens/servicos4.jpg" alt="Conserto de botões">
+                            <span class="tituloSevico">Conserto de botões</span>
+                        </div>
+
+                        <div class="responsivoServico">
+                            <img class="imagemServico" src="imagens/servicos.jpg" alt="Recuperação de dados">
+                            <span class="tituloSevico">Recuperação de dados</span>
+                        </div>
+
+                        <div class="responsivoServico">
+                            <img class="imagemServico" src="imagens/servicos1.jpg" alt="Limpeza e manutenção">
+                            <span class="tituloSevico">Limpeza e manutenção</span>
+                        </div>
+                    </div>
+                    <div class="textoProdutos">
+                        <p id="textoServicos">Alguns dos serviços oferecidos pela MobbiMax incluem soluções voltadas
+                            exclusivamente para empresas. Consulte!</p>
+                        <a id="btnServicos" href="contato.html">Fale conosco</a>
+                    </div>
+                </section>
+            </main>
+
+            <footer class="rodape">
+                <section class="orcamento">
+                    <h6 class="tituloFormulario">Faça um orçamento!</h6>
+                    <div class="formulario">
+                        <form class="orcamentoFormulario">
+                            <input type="text" name="nome" size="40" class="formularioCampos" aria-invalid="false"
+                                placeholder="Nome:">
+
+                            <input type="email" name="email" size="40" class="formularioCampos" aria-invalid="false"
+                                placeholder="E-mail:">
+
+                            <input type="tel" name="telefone" size="40" class="formularioCampos"
+                                placeholder="Telefone:">
+
+                            <textarea name="mensagem" cols="4" rows="4" class="formularioCampoMensagem"
+                                placeholder="Mensagem:"></textarea>
+
+                            <input type="submit" class="btnEviar">
+                        </form>
+                    </div>
+                </section>
+
+                <section class="secaoContatoFooter">
+                    <h6 class="tituloContatoFooter">Fale conosco!</h6>
+                    <div class="responsivoFooter">
+                        <div class="respomsivoRedes">
+                            <div class="redesRodape">
+                                <img class="imgIconeRodape" src="imagens/whatsapp.png" alt="Icone do whatsapp">
+                                <span class="textoIconeRodape">11 95478-6521 </span>
+                            </div>
+
+                            <div class="redesRodape">
+                                <img class="imgIconeRodape" src="imagens/face.png" alt="Icone do facebook">
+                                <span class="textoIconeRodape">www.facebook.com/mobbimax</span>
+                            </div>
+
+                            <div class="redesRodape">
+                                <img class="imgIconeRodape" src="imagens/instagram.png" alt="Icone do instagram">
+                                <span class="textoIconeRodape">@mobbimax</span>
+                            </div>
+                        </div>
+                        <div class="rodapeMapa">
+                            <iframe class="mapaRodape"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.7066035977705!2d-47.48485262499447!3d-23.471045378861977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c5f518dce47a21%3A0xa0f108c77a2d213e!2sAlameda%20Guaruj%C3%A1%2C%20128%20-%20Vila%20Nova%20Sorocaba%2C%20Sorocaba%20-%20SP%2C%2018070-750!5e0!3m2!1spt-PT!2sbr!4v1693512157080!5m2!1spt-PT!2sbr"
+                                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <span class="tituloMapa">Alameda Guarujá, 128 - Vila Nova Sorocaba, Sorocaba - SP,
+                                18070-750</span>
+                        </div>
+                    </div>
+                </section>
+            </footer>
+
+
+            <!-- Link ScrollReveal -->
+            <script src="https://unpkg.com/scrollreveal"></script>
+
+            <!-- Link JS -->
+            <script src="js/script.js"></script>
+</body>
+
+</html>

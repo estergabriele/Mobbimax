@@ -1,0 +1,199 @@
+/* Responsividade Menu */
+
+@media screen and (max-width: 1120px) {
+    .menuPrincipal {
+        padding: 1.5rem 4rem;
+    }
+
+    .itemMenu {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .itemMenu {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .open {
+        display: block;
+    }
+}
+
+/* Desktop */
+
+@media (min-width: 1120px) {
+
+
+    .menuPrincipal {
+        margin: 0 5rem;
+    }
+
+    .apresentacaoHomeImg,
+    .imagemServico,
+    .imgProdutos {
+        width: 250px;
+        height: 250px;
+
+    }
+
+    .apresentacaoHomeImg {
+        margin: 2rem 5rem;
+    }
+
+    .imagemServico,
+    .imgProdutos {
+        margin: 2rem 64px;
+    }
+
+    .responsivoHome,
+    .responsivoServico {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .responsivoFundoHome {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .responsivoFundoServico,
+    .responsivoFundoProdutos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btnEviar {
+        padding: 20px;
+        font-size: 1.1em;
+    }
+
+    .formularioCampos,
+    .formularioCampoMensagem {
+        width: 40vw;
+    }
+
+    .responsivoFooter {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .redesRodape {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .responsivoRedes {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .containerHome {
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .rodapeMapa {
+        margin: 0 4rem;
+    }
+
+    .quemSomosMetas {
+        display: flex;
+        align-items: center;
+    }
+
+    .textoQuemSomos {
+        text-align: center;
+    }
+
+    #textoServicos {
+        font-size: 1.2em;
+    }
+
+    .listaMetas {
+        display: block;
+        margin: 0 10rem;
+        width: 50%;
+        font-size: 1.1em;
+    }
+
+    .containerContato {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .containerAcessorios {
+        text-align: center;
+    }
+
+    .mapaRodape {
+        width: 650px;
+    }
+
+    .textoContato {
+        text-align: center;
+    }
+
+    #imagemQuemSomos {
+        width: 50%;
+    }
+
+    .lojasLocalização {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .responsivoLoja {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .lojaImg {
+        width: 550px;
+        height: 400px;
+        margin: 0 4rem;
+    }
+
+    #textoResponsivoLoja,
+    .containerLojas {
+        margin: 4rem auto;
+        font-weight: 500;
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    .lojasMapa {
+        width: 30vw;
+        margin-top: 5rem;
+    }
+
+    .enderecoLoja {
+        width: 30vw;
+    }
+
+}
